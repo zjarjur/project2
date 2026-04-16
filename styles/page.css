@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  color: azure;
+  background-color: black;
+  font-family: "Kumar One", serif;
+  /* TODO Add dark mode styles here. */
+}
+
+.light-mode {
+    color: black;
+    background-color: aliceblue;
+  /* TODO Add light mode styles here. */
+}
+
+.center {
+  width: 940px;
+  padding: 20px;
+  border: 1px dotted white;
+  margin-left: auto;
+  margin-right: auto;
+  /* TODO Add margins to center. */
+}
+.poem {
+  text-align: center;
+}
+
+footer {
+    background-color: lightcoral;
+  /* TODO Add styles */
+}
+
+.light-mode footer {
+    color: white;
+    background-color: black;
+  /* TODO Add footer light mode styles here. */
+}
+
+h1 {
+  font-family: "Honk", system-ui;
+}
+
+.honk-<uniquifier> {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+#color-mode-button{
+  background-color:bisque;
+  color: darkslateblue;
+  border-radius: 35%;
+}
