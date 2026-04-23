@@ -3,10 +3,11 @@
 }
 
 body {
-  padding: 20px;
+  margin: 0;
+  padding: 0;
   color: azure;
   background-color: black;
-  font-family: "Kumar One", serif;
+  /*font-family: "Kumar One", serif;*/
   /* TODO Add dark mode styles here. */
 }
 
@@ -18,10 +19,8 @@ body {
 
 .center {
   
-  max-width: 50%;
-  width: 30%;
+  max-width: 940px;
   padding: 20px;
-  border: 1px dotted white;
   margin-left: auto;
   margin-right: auto;
   /* TODO Add margins to center. */
@@ -32,7 +31,6 @@ body {
 }
 
 footer {
-  max-wdith: 300;
   background-color: lightcoral;
   /* TODO Add styles */
 }
@@ -50,5 +48,4 @@ h1 {
 #color-mode-button {
   background-color: bisque;
   color: darkslateblue;
-  border-radius: 35%;
 }

@@ -1,10 +1,23 @@
-let button2 = document.getElementById("counter-button");
-let counter2 = document.getElementById("counter");
-let number2 = 0;
+//Make Variables
 
-function addOne2(event){
-    number2 = number2 + 1;
-    counter.textContent = number2;
+let counter = document.getElementById("counter");
+let number = 0;
+let buttonPlusOne = document.getElementById("counter-button");
+let buttonMinusOne = document.getElementById("minus-one-button");
+
+//Define Functions
+
+function addOne(){
+    number = number + 1;
+    counter.textContent = number;
 }
 
-button2.addEventListener("click", addOne2);
+function minusOne(){
+    number = number - 1;
+    counter.textContent = number;
+}
+
+//Define Button Event Listeners
+
+buttonPlusOne.addEventListener("click", addOne);
+buttonMinusOne.addEventListener("click", minusOne);
