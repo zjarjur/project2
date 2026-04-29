@@ -3,12 +3,17 @@
 }
 
 body {
+  max-width: 900px;
   margin: 0;
   padding: 0;
   color: azure;
   background-color: black;
   /*font-family: "Kumar One", serif;*/
   /* TODO Add dark mode styles here. */
+}
+
+header {
+  background-color: gold;
 }
 
 .light-mode {
@@ -31,7 +36,7 @@ body {
 }
 
 footer {
-  background-color: lightcoral;
+  background-color: darkkhaki;
   /* TODO Add styles */
 }
 
@@ -48,4 +53,40 @@ h1 {
 #color-mode-button {
   background-color: bisque;
   color: darkslateblue;
+}
+
+button {
+  min-width: 40px;
+  padding: 4px 8px;
+}
+#calculator-buttons {
+  padding: 4px;
+  margin: 4px;
+  max-width: 140px;
+  border-style: solid;
+  border-color:red;
+  border-width: 2px;
+  background-color: black;
+}
+
+#counter {
+  padding: 4px;
+  margin: 4px;
+  max-width: 140px;
+  border-style: solid;
+  border-color:black;
+  border-width: 2px;
+  background-color:white;
+  color: black;
+}
+
+#calculator {
+  padding: 4px;
+  margin: 4px;
+  max-width: 160px;
+  border-style: solid;
+  border-color:green;
+  border-width: 2px;
+  background-color:silver;
+  color:white;
 }
